@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.sayitagain/sayitagain",
+  "title": "Say It Again",
+  "description": "AI UGC videos of your store's products: read a product, write 3 scripts, make the video.",
+  "version": "1.0.1",
+  "websiteUrl": "https://sayitagain.ai/docs/api",
+  "icons": [
+    {
+      "src": "https://sayitagain.ai/static/share/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://sayitagain.ai/static/brand/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.sayitagain.ai/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/sayitagainai/mcp",
+    "source": "github"
+  }
+}
